@@ -1,0 +1,65 @@
+
+* {
+     box-sizing: border-box;
+     margin: 0;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html {
+     font-size: 62.5%;
+     font-family: sans-serif;
+}
+
+#game {
+     display: flex;
+     flex-direction: column;
+}
+
+#row_1,
+#row_2,
+#row_3 {
+     display: flex;
+     flex-direction: row;
+}
+
+.box {
+     width: 100px;
+     height: 100px;
+     background-color: lightblue;
+     margin: 1em;
+}
+
+li {
+     list-style: none;
+}
+a {
+     text-decoration: none;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Small Screen, Laptop */
+@media all and (max-width: 1250px) {
+
+}
+/* iPad, Tablet */
+@media all and (max-width: 768px) and (min-width: 481px) {
+ 
+}
+/* Mobile */
+@media all and (max-width: 480px) {
+
+}
